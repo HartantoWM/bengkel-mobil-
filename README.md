@@ -6,6 +6,7 @@ ProjectWeb1-Sistem Informasi Bengkel Mobil
 </br>
 Ketua : Hartanto Wawangi Mukhti
 </br>
-Anggota : Dimas Atha Handria</br>
-          Masayid Alfariski</br>
-          Muchamad Zainuri
+Anggota : </br>
+Dimas Atha Handria</br>
+Masayid Alfariski</br>
+Muchamad Zainuri
