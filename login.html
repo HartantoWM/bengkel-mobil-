@@ -17,21 +17,36 @@
     <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 
 </head>
 
-<body class="hold-transition login-page">
+<body class="hold-transition login-page ">
     <div class="login-box">
-        <div class="login-logo">
-            <a href="../../index2.html"><b>Kontol</b> Bengkel</a>
+        <div class="login-logo jlogin text-center">
+            <a href="../../Projek 2/bengkel-mobil-/page1.html" class="animate__bounceInLeft">Bengkel <b
+                    class="kilat">Kilat</b></a>
+            <img src="./dist/img/kacau.png" alt="kilat" class="tada">
         </div>
         <!-- /.login-logo -->
         <div class="card">
             <div class="card-body login-card-body">
                 <form action="../../index3.html" method="post">
-                    <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                    <div class="text-center">
+                        <h3 class="asu">Masuk</h3>
+                    </div>
+                    <div class="input-group mb-3 email">
+                        <input type="email" class="form-control" id="form2Example1" placeholder="Email">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -47,41 +62,47 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-8 cuba" >
-                            <div class="icheck-primary">
-                                <input type="checkbox" id="remember">
-                                <label for="remember">
-                                    Remember Me
-                                </label>
+                        <div class="col-12 cuba">
+                            <div class="form-check remember">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" />
+                                <label class="form-check-label" for="form2Example31"> Ingat Saya </label>
                             </div>
-                            <div>
+                            <div class="lupapw">
                                 <p class="mb-1">
-                                    <a href="forgot-password.html">I forgot my password</a>
+                                    <a href="forgot-password.html">Lupa Password?</a>
                                 </p>
                             </div>
                         </div>
                         <!-- /.col -->
-                        <div class="col-4">
-                            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                        </div>
                         <!-- /.col -->
+                    </div>
+                    <div class="col-4 button">
+                        <button type="submit" class="btn btn-primary">Masuk</button>
                     </div>
                 </form>
 
                 <div class="social-auth-links text-center mb-3">
-                    <p>- OR -</p>
-                    <a href="#" class="btn btn-block btn-primary">
-                        <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
-                    </a>
-                    <a href="#" class="btn btn-block btn-danger">
-                        <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
-                    </a>
+                    <p><span class="garis">――――――</span> atau masuk dengan <span class="garis"> ―――――― </span></p>
+                    <span class="otherlogin">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#!" class="btn btn-light">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="btn btn-dark">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </span>
                 </div>
                 <!-- /.social-auth-links -->
 
-                <p class="mb-0">
-                    <a href="register.html" class="text-center">Register a new membership</a>
+                <p class="mb-0 register">Belum punya akun? <a href="#!" class="text-50 fw-bold">Daftar</a>
                 </p>
+
             </div>
             <!-- /.login-card-body -->
         </div>
