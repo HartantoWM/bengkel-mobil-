@@ -34,14 +34,14 @@
 <body class="hold-transition login-page ">
     <div class="login-box">
         <div class="login-logo jlogin text-center">
-            <a href="../../Projek 2/bengkel-mobil-/page1.html" class="animate__bounceInLeft">Bengkel <b
+            <a href="page1.html" class="animate__bounceInLeft">Bengkel <b
                     class="kilat">Kilat</b></a>
             <img src="./dist/img/kacau.png" alt="kilat" class="tada">
         </div>
         <!-- /.login-logo -->
         <div class="card">
-            <div class="card-body login-card-body">
-                <form action="../../index3.html" method="post">
+            <div class="card-body login-card-body rounded">
+                <form action="page2.html" method="post">
                     <div class="text-center">
                         <h3 class="asu">Masuk</h3>
                     </div>
@@ -54,10 +54,10 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" class="form-control" placeholder="Password" id="dihide">
                         <div class="input-group-append">
-                            <div class="input-group-text">
-                                <span class="fas fa-lock"></span>
+                            <div class="input-group-text cepmek">
+                                <span class="fas fa-eye-slash" onclick="hide()" id="ganti"></span>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                             </div>
                             <div class="lupapw">
                                 <p class="mb-1">
-                                    <a href="forgot-password.html">Lupa Password?</a>
+                                    <a href="#">Lupa Password?</a>
                                 </p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                 </div>
                 <!-- /.social-auth-links -->
 
-                <p class="mb-0 register">Belum punya akun? <a href="#!" class="text-50 fw-bold">Daftar</a>
+                <p class="mb-0 register">Belum punya akun? <a href="register.html" class="text-50 fw-bold">Daftar</a>
                 </p>
 
             </div>
@@ -108,7 +108,19 @@
         </div>
     </div>
     <!-- /.login-box -->
-
+    <script>
+        function hide() {
+            let x = document.getElementById("dihide");
+            let y = document.getElementById("ganti");
+            if (x.type === "text") {
+                x.type = "password";
+                y.classList = "fas fa-eye-slash";
+            }else{
+                x.type = "text";
+                y.classList = "fas fa-eye";
+            }
+        }
+    </script>
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
