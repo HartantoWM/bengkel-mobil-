@@ -22,8 +22,9 @@ div.lupapw {
     /* border: 1px solid red; */
 }
 
-div.button>button.btn-primary {
+div.button>button.btn-danger     {
     width: 47vh;
+    display: inline-block;
     height: 6vh;
     margin-top: 2vh;
 }
@@ -49,7 +50,7 @@ span.otherlogin>a.btn-light {
 
 span.otherlogin>a.btn-danger {
     background-image: linear-gradient(to left bottom, #e60000, #b0001f, #760523, #3d0f1b, #000000);
-    border: #000000 solid 1px;
+    border: red solid 1px;
 }
 
 .jlogin>img {
