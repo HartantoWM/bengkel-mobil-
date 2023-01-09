@@ -1,0 +1,34 @@
+/* Color Painting */
+body{
+    margin: 0;
+    padding: 0;
+    background: background linear-gradient(#000000, #42101d, #810728, #c10027, #ff0010);
+}
+
+nav .navbar-brand{
+    margin: 0;
+    padding: 0;
+    background-color: #42101d;
+}
+/* Brand layout */
+
+div .logo{
+    margin: 5%;
+    padding: 5%;
+}
+
+img{
+    width: 3%;
+}
+
+/* position */
+div .form-group{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+div .navbar-brand{
+    margin: 0;
+    padding: 0;
+    background-color: #42101d;
+}
