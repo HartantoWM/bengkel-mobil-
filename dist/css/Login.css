@@ -22,13 +22,14 @@ div.lupapw {
     /* border: 1px solid red; */
 }
 
-div.button>button.btn-danger     {
-    width: 47vh;
-    display: inline-block;
-    height: 6vh;
+div.button{
+    display: flex;
+    justify-content: center;
+}
+div.button>button.btn-danger{
+    height: 6.1vh;
     margin-top: 2vh;
 }
-
 
 div.email {
     margin-top: 8px;

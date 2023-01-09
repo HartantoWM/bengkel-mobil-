@@ -7,7 +7,7 @@
     <title>Bengkel | Log in</title>
 
     <!-- Private Style Css -->
-    <link rel="stylesheet" href="dist/css/styleku.css">
+    <link rel="stylesheet" href="dist/css/Login.css">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -51,7 +51,7 @@
                         <input type="password" class="form-control" placeholder="Password" id="dihide">
                         <div class="input-group-append">
                             <div class="input-group-text cepmek">
-                                <span class="fas fa-eye-slash" onclick="hide()" id="ganti"></span>
+                                <span class="fas fa-eye" onclick="hide()" id="ganti"></span>
                             </div>
                         </div>
                     </div>
@@ -70,8 +70,10 @@
                         <!-- /.col -->
                         <!-- /.col -->
                     </div>
-                    <div class="col-4 button">
-                        <button type="submit" class="btn btn-danger">Masuk</button>
+                    <div class="row">
+                    <div class="col-12 button">
+                        <button type="submit" class="btn btn-danger col-12">Masuk</button>
+                    </div>
                     </div>
                 </form>
 
@@ -94,9 +96,8 @@
                 </div>
                 <!-- /.social-auth-links -->
 
-                <p class="mb-0 register">Belum punya akun? <a href="register.html" class="text-50 fw-bold">Daftar</a>
-                </p>
-
+                Belum punya akun? Ayo<a href="register.html" class="text-50 fw-bold"> Daftar</a>
+                
             </div>
             <!-- /.login-card-body -->
         </div>
@@ -106,11 +107,11 @@
         function hide() {
             let x = document.getElementById("dihide");
             let y = document.getElementById("ganti");
-            if (x.type === "text") {
-                x.type = "password";
+            if (x.type === "password") {
+                x.type = "text";
                 y.classList = "fas fa-eye-slash";
             }else{
-                x.type = "text";
+                x.type = "password";
                 y.classList = "fas fa-eye";
             }
         }
