@@ -1,15 +1,52 @@
 /* Color Painting */
-body{
+body {
     margin: 0;
     padding: 0;
     background: background linear-gradient(#000000, #42101d, #810728, #c10027, #ff0010);
 }
 
-nav .navbar-brand{
-    margin: 0;
-    padding: 0;
-    background-color: #42101d;
+
+/* Logo + Gambar Style */
+div .col-md-12 {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding: 40px;
 }
+
+/* Navbar Style */
+.navbar {
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    top: 0;
+    border-width: auto;
+    border-radius: 30ex;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0010;
+}
+
+a:hover {
+    color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-left: 40px;
+}
+
+/* div .row{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* background-color: #42101d; */
+/* } */
 /* Brand layout */
 
 div .logo{
