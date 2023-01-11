@@ -1,8 +1,13 @@
-.register-box{
-    /* width: 35vw;
-    outline: solid 1px; */
+:root {
+    --gradient: linear-gradient(to top, #000000, #40101d, #7d0a27, #bb0025, #f60e0e);
 }
 
-body.register-page{
-    background-color: #666;
+.register-box {
+    width: 35%;
+    outline: solid 1px;
+    /* display: none; */
+}
+
+body.register-page {
+
 }
