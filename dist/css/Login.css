@@ -3,9 +3,9 @@ body.login-page {
     padding: 0;
     background-image: linear-gradient(to left bottom, #000000, #42101d, #810728, #c10027, #ff0010);
 }
-*{
-    /* outline: #000000 solid; */
-}
+/* *{
+    outline: #000000 solid;
+} */
 
 div.row>div.cuba {
     display: flex;
