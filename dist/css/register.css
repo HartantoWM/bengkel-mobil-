@@ -7,11 +7,16 @@ body.register-page{
 
 .register-box {
     width: 30%;
-    z-index: 1;
 }
 
-div.register-logo > a{
-    color: whitesmoke;
-    text-decoration: none;
-    z-index: 1;
+
+@media (max-width: 580px){
+    .register-box{
+        width: 85%;
+    }
+}
+@media (min-width: 600px){
+    .register-box{
+        width: 30%;
+    }
 }

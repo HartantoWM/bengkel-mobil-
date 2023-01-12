@@ -18,6 +18,10 @@ div.jlogin>a {
     color: whitesmoke;
 }
 
+div.card,div.card-body{
+    box-shadow: 0 1px 8px 0 rgba(245, 245, 245, 0.59)
+}
+
 div.lupapw {
     line-height: 34px;
     font-size: 12px;
