@@ -8,8 +8,13 @@ body.register-page{
 .register-box {
     width: 30%;
 }
+.lgoogle{
+    margin-bottom: 2.5px;
+}
 
-
+label.form-check-label{
+    font-weight: bold;
+}
 @media (max-width: 580px){
     .register-box{
         width: 85%;
