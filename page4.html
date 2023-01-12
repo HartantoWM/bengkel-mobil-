@@ -14,40 +14,27 @@
 <body>
     <!-- Wadah pertama A.K.A Container -->
     <div class="container-fluid">
-        <!-- Pembuka Wadah Kedua A.K.A Row -->
-        <div class="row">
-            <!-- Pembuka Wadah Ketiga  -->
-            <div class="col-md-12">
-                <!-- Nama Bengkel + Logo -->
-                <h3>Bengkel <h2>Kilat</h2> <img src="dist/img/kacau.png" alt=""></h3>
-                <!-- Navbar -->
-                <div class="navbar">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li>|</li>
-                        <li><a href="">Produk & layanan</a></li>
-                        <li>|</li>
-                        <li><a href="">Booking</a></li>
-                        <li>|</li>
-                        <li><a href="">Berita</a></li>
-                        <li>|</li>
-                        <li><a href="">Tentang Kami</a></li>
-                    </ul>
-                </div>
-                    <!-- Button Search Navbar -->
-                    <div class="">
-                        <input class="form-control mr-sm-2" type="text" /> 
-                        <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                            Search
-                        </button>
-                    </div>
-                </nav>
-            </div>
+        <!-- Pembuka Wadah Kedua / Navbar -->
+        <div class="brand">
+            <!-- Nama Bengkel + Logo -->
+            <h3 class="bengkel">Bengkel <b class="kilat">Kilat</b></h3>
+            <img class="kacau" style="width: 3rem;" src="dist/img/kacau.png" alt="">
         </div>
-        <!-- div pembuka ke-2 -->
-        <div class="row">
-            <div class="form">
-                <form role="form">
+        <!-- NAVBAR Uhuuuuuuuuuuuuuuuuuuuuuuy -->
+        <div class="navbar">
+            <!-- Button Search Navbar -->
+            <input class="form-control mr-sm-2" type="text" /> 
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </div>
+        <!-- div pembuka ke -2 -->
+        <form class="conten">
+            <fieldset>
+                <div class="shortcut">
+                    <p>Home</p>
+                    <P>/</P>
+                    <a href="#">Login</a>
+                </div>
+                <Legend>Booking Service</Legend>
                     <div class="form-group">
                             <label  for="JenisKendaraan">Jenis Kendaraan</label>
                             <select class="form-control" name="JenisKendaraan" id="JenisKendaraan">
@@ -113,10 +100,8 @@
                     <button type="button" class="btn btn-success">
                         Reset
                     </button>
-                </form> 
-                
-            </div>
-        </div>
+            </fieldset>
+        </form>
     </div>
     <div class="container-fluid">
         <div class="row">

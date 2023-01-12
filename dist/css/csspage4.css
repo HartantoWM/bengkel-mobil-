@@ -1,61 +1,25 @@
-/* Color Painting */
+/*   style Body */
 body {
     margin: 0;
     padding: 0;
-    background: background linear-gradient(#000000, #42101d, #810728, #c10027, #ff0010);
+    background-color: #fff;;
 }
 
-
-/* Logo + Gambar Style */
-div .col-md-12 {
-    list-style-type: none;
-    display: flex;
-    justify-content: end;
-    gap: 15px;
-    padding: 40px;
-}
-
-/* Navbar Style */
-.navbar {
-    width: 100%;
-    background-color: #000000;
-    position: relative;
-    top: 0;
-    border-width: auto;
-    border-radius: 30ex;
-}
-
-a {
-    text-decoration: none;
-    color: #ff0010;
-}
-
-a:hover {
-    color: aqua;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: end;
-    gap: 15px;
-    padding-left: 40px;
-}
-
-/* div .row{ */
-    /* margin: 0; */
-    /* padding: 0; */
-    /* background-color: #42101d; */
-/* } */
 /* Brand layout */
 
-div .logo{
-    margin: 5%;
-    padding: 5%;
+.brand {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.bengkel {
+    padding-top: 2rem;
 }
 
 img{
-    width: 3%;
+    width: auto;
+    height: auto;
 }
 
 /* position */
@@ -64,8 +28,21 @@ div .form-group{
     padding-right: 30%;
 }
 
-div .navbar-brand{
-    margin: 0;
-    padding: 0;
-    background-color: #42101d;
+h3 {
+    color: red;
 }
+
+b {
+    color: yellow;
+}
+
+.kacau{
+    text-align: center;
+}
+
+/* Form */
+.shortcut {
+    display: flex;
+    justify-content: flex-end;
+}
+
