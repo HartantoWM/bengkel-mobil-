@@ -5,61 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Boostrap CSS Online -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- Masayid Style Css -->
+    <link rel="stylesheet" href="dist/css/csspage4.css">
 </head>
 <body>
+    <!-- Wadah pertama A.K.A Container -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> <a class="navbar-brand" href="#">Brand</a>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="text" /> 
-                            <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                                Search
-                            </button>
-                        </form>
-                        <ul class="navbar-nav ml-md-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+        <!-- Pembuka Wadah Kedua / Navbar -->
+        <div class="brand">
+            <!-- Nama Bengkel + Logo -->
+            <h3 class="bengkel">Bengkel <b class="kilat">Kilat</b></h3>
+            <img class="kacau" style="width: 3rem;" src="dist/img/kacau.png" alt="">
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <form role="form">
+        <!-- NAVBAR Uhuuuuuuuuuuuuuuuuuuuuuuy -->
+        <div class="navbar">
+            <!-- Button Search Navbar -->
+            <input class="form-control mr-sm-2" type="text" /> 
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </div>
+        <!-- div pembuka ke -2 -->
+        <form class="conten">
+            <fieldset>
+                <div class="shortcut">
+                    <p>Home</p>
+                    <P>/</P>
+                    <a href="#">Login</a>
+                </div>
+                <Legend>Booking Service</Legend>
                     <div class="form-group">
                             <label  for="JenisKendaraan">Jenis Kendaraan</label>
                             <select class="form-control" name="JenisKendaraan" id="JenisKendaraan">
@@ -67,19 +42,17 @@
                                 <option value="1">1</option>
                                 <option value="1">1</option>
                             </select>
-
-                        
+                        <!-- Form Group pengisian  -->
                     </div>
                     <div class="form-group">
-                        
-                        <label for="exampleInputEmail1">
+                        <label>
                             Nama Pemesan
                         </label>
                         <input type="email" class="form-control" id="exampleInputEmail1" />
                     </div>
                     <div class="form-group">
                         
-                        <label for="exampleInputEmail1">
+                        <label>
                             Kategori Peminjam
                         </label>
                         <input type="checkbox" />
@@ -87,21 +60,21 @@
                     </div>
                     <div class="form-group">
                         
-                        <label for="exampleInputEmail1">
+                        <label>
                             Deskripsi Kebutuhan
                         </label>
                         <input type="text-area" class="form-control" />
                     </div>
                     <div class="form-group">
                         
-                        <label for="exampleInputEmail1">
+                        <label>
                             Jam, Tanggal Service : 
                         </label>
                         <input type="date" class="form-control" />
                     </div>
                     <div class="form-group">
                         
-                        <label for="exampleInputEmail1">
+                        <label>
                             Request Montir
                         </label>
                         <input type="email" class="form-control" id="exampleInputEmail1" />
@@ -115,29 +88,27 @@
                     </div>
                     <div class="form-group">
                         
-                        <label for="exampleInputEmail1">
+                        <label>
                             Email 
                         </label>
                         <input type="email" class="form-control" id="exampleInputEmail1" />                        
                     </div>
 
                     <button type="submit" class="btn btn-primary">
-                        Submit
+                        Simpan
                     </button>
                     <button type="button" class="btn btn-success">
                         Reset
                     </button>
-                </form> 
-                
-            </div>
-        </div>
+            </fieldset>
+        </form>
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
             
                 <address>
-                    <strong>Developed by Bengkel jay x Tanto</strong>
+                    <strong>Developed by Mahasiswa STTNF</strong>
                 </address>
             </div>
         </div>

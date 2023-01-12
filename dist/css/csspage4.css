@@ -1,0 +1,48 @@
+/*   style Body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;;
+}
+
+/* Brand layout */
+
+.brand {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.bengkel {
+    padding-top: 2rem;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+/* position */
+div .form-group{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+h3 {
+    color: red;
+}
+
+b {
+    color: yellow;
+}
+
+.kacau{
+    text-align: center;
+}
+
+/* Form */
+.shortcut {
+    display: flex;
+    justify-content: flex-end;
+}
+
