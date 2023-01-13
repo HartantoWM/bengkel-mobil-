@@ -21,11 +21,31 @@
             <img class="kacau" style="width: 3rem;" src="dist/img/kacau.png" alt="">
         </div>
         <!-- NAVBAR Uhuuuuuuuuuuuuuuuuuuuuuuy -->
-        <div class="navbar">
-            <!-- Button Search Navbar -->
-            <input class="form-control mr-sm-2" type="text" /> 
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-        </div>
+        <nav class="navbar">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="ri-menu-line"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="#">Home</a></li>
+                    <li>|</li>
+                    <li><a href="#">Produk & Layanan</a></li>
+                    <li>|</li>
+                    <li><a href="#">Booking</a></li>
+                    <li>|</li>
+                    <li><a href="#">Berita</a></li>
+                    <li>|</li>
+                    <li><a href="#">Tentang Kami</a></li>
+                </ul>
+                <!-- Button Search Navbar -->
+                <div class="navbar-btn">
+                    <input class="form-control mr-sm-2" type="text" /> 
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                </div>
+                <a href="#" class="login">Login</a>
+            </div>
+        </nav>
+        
         <!-- div pembuka ke -2 -->
         <form class="conten">
             <fieldset>
@@ -38,9 +58,11 @@
                     <div class="form-group">
                             <label  for="JenisKendaraan">Jenis Kendaraan</label>
                             <select class="form-control" name="JenisKendaraan" id="JenisKendaraan">
-                                <option value="1">1</option>
-                                <option value="1">1</option>
-                                <option value="1">1</option>
+                                <option value="minibus">Minibus</option>
+                                <option value="bus">Bus</option>
+                                <option value="truck">Truck</option>
+                                <option value="tronton">Tronton</option>
+                                <option value="mobil">Mobil</option>
                             </select>
                         <!-- Form Group pengisian  -->
                     </div>
@@ -48,7 +70,7 @@
                         <label>
                             Nama Pemesan
                         </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" />
+                        <input type="text" class="form-control" id="exampleInputEmail1" />
                     </div>
                     <div class="form-group">
                         
