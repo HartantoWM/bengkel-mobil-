@@ -1,0 +1,154 @@
+body.login-page {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left bottom, #000000, #42101d, #810728, #c10027, #ff0010);
+}
+
+div.row>div.cuba {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+div.jlogin>a {
+    color: whitesmoke;
+}
+
+div.card,div.card-body{
+    box-shadow: 0 1px 8px 0 rgba(245, 245, 245, 0.59)
+}
+
+div.lupapw {
+    line-height: 34px;
+    font-size: 12px;
+    margin-right: 5pt;
+}
+
+div.button{
+    display: flex;
+    justify-content: center;
+}
+div.button>button.btn-danger{
+    height: 6.1vh;
+    margin-top: 2vh;
+}
+
+div.email {
+    margin-top: 8px;
+}
+
+span.otherlogin {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span.otherlogin>a {
+    border-radius: 50%;
+}
+
+span.otherlogin>a.btn-light {
+    color: royalblue;
+    border: royalblue solid 1px;
+}
+
+span.otherlogin>a.btn-danger {
+    background-image: linear-gradient(to left bottom, #e60000, #b0001f, #760523, #3d0f1b, #000000);
+    border: red solid 1px;
+}
+
+.jlogin>img {
+    width: 3rem;
+
+}
+
+.jlogin>a {
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 1.5rem;
+}
+
+span.kilat {
+    color: #FFBE0F;
+    font-weight: bold;
+}
+
+div.text-center>h3.masuk{
+    margin-bottom: 10px;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+}
+
+div.remember {
+    display: flex;
+    padding-top: 5px;
+
+}
+
+div.remember>label {
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: -4px;
+}
+
+div.social-auth-links>p {
+    font-size: 0.9em;
+}
+
+p.register,
+p.register>a {
+    font-size: 15px;
+}
+
+div.social-auth-links>p,
+p.register,
+p.register>a {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+span.garis {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #666;
+}
+
+/* animaton page */
+
+
+.tada {
+    animation-name: tada;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.4s;
+}
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}

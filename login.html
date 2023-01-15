@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in | Bengkel Kilat⚡</title>
+
+    <link rel="icon" href="🛠">
+    <!-- My Css -->
+    <link rel="stylesheet" href="dist/css/Login.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Adminlte style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Bootstarp 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body class="hold-transition login-page ">
+    <div class="login-box">
+        <div class="login-logo jlogin text-center animate__animated animate__bounceInDown">
+            <!-- <span> -->
+            <a href="page1.html" class="text-decoration-none">Bengkel <span
+                    class="kilat">Kilat</span></a>
+                    <!-- </span> -->
+            <img src="./dist/img/kacau.png" alt="kilat" class="tada">
+        </div>
+        <!-- /.login-logo -->
+        <div class="card rounded-3 border border-2 border-danger" >
+            <div class="card-body login-card-body rounded-3 ">
+                <form action="page2.html" method="post">
+                    <div class="text-center">
+                        <h3 class="masuk animate__animated animate__rubberBand">Masuk</h3>
+                    </div>
+                    <div class="input-group mb-3 email">
+                        <input type="email" class="form-control" id="form2Example1" placeholder="Email">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control " placeholder="Password" id="dihide">
+                        <div class="input-group-append">
+                            <div class="input-group-text cepmek">
+                                <span class="fas fa-eye" onclick="hide()" id="ganti"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 cuba">
+                            <div class="form-check remember">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" />
+                                <label class="form-check-label" for="form2Example31"> Ingat Saya </label>
+                            </div>
+                            <div class="lupapw">
+                                <p class="mb-1">
+                                    <a href="#" class="text-decoration-none fw-bold">Lupa Password?</a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <!-- /.col -->
+                    </div>
+                    <div class="row">
+                    <div class="col-12 button">
+                        <button type="submit" class="btn btn-danger col-12">Masuk</button>
+                    </div>
+                    </div>
+                </form>
+
+                <div class="social-auth-links text-center mb-3">
+                    <p><span class="garis">――――――</span> atau masuk dengan <span class="garis"> ―――――― </span></p>
+                    <span class="otherlogin">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#!" class="btn btn-light">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="btn btn-dark">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </span>
+                </div>
+                <!-- /.social-auth-links -->
+                <span class="text-sm">
+                Belum punya akun? Ayo<a href="register.html" class="text-50 fw-bold text-decoration-none"> Daftar</a>
+                </span>
+            </div>
+            <!-- /.login-card-body -->
+        </div>
+    </div>
+    <!-- /.login-box -->
+    <script>
+        function hide() {
+            let x = document.getElementById("dihide");
+            let y = document.getElementById("ganti");
+            if (x.type === "password") {
+                x.type = "text";
+                y.classList = "fas fa-eye-slash";
+            }else{
+                x.type = "password";
+                y.classList = "fas fa-eye";
+            }
+        }
+    </script>
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Adminlte -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/adminlte.min.js"></script>
+
+    <!-- JS Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
