@@ -40,6 +40,10 @@ b.kilat{
 nav {
     margin-bottom: 1%;
 }
+
+div.link>a.nav-link {
+    margin: 3%;
+}
 /* top legend */
 b.symbol{
     margin: 0 3px 0 3px;
@@ -47,10 +51,31 @@ b.symbol{
 
 /* Form */
 
+.form-control {
+    padding: 2%;
+    margin: 2%;
+}
+.form-radio {
+    padding: 2%;
+    margin: 2%;
+}
+.form-group {
+    padding: 0;
+    margin: 0;
+}
+
+div.form-group > label {
+    font-weight: bold;
+}
+
 form.conten{
     padding: auto;
     margin: auto;
     border: solid black 1px;
+}
+
+fieldset {
+    padding-bottom: 3%;
 }
 
 legend {
@@ -71,3 +96,8 @@ div.btn {
     padding-right: 30%;
 }
 
+/* footer Style */
+.footer {
+    margin: 20px;
+    border-top: 1px solid #000;
+}
