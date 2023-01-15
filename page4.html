@@ -21,28 +21,50 @@
             <img class="kacau" style="width: 3rem;" src="dist/img/kacau.png" alt="">
         </div>
         <!-- NAVBAR Uhuuuuuuuuuuuuuuuuuuuuuuy -->
-        <nav class="navbar">
-            <a href="#" class="logo">Logo</a>
-            <input type="checkbox" id="toggler">
-            <label for="toggler"><i class="ri-menu-line"></i></label>
-            <div class="menu">
-                <ul class="list">
-                    <li><a href="#">Home</a></li>
-                    <li>|</li>
-                    <li><a href="#">Produk & Layanan</a></li>
-                    <li>|</li>
-                    <li><a href="#">Booking</a></li>
-                    <li>|</li>
-                    <li><a href="#">Berita</a></li>
-                    <li>|</li>
-                    <li><a href="#">Tentang Kami</a></li>
-                </ul>
-                <!-- Button Search Navbar -->
-                <div class="navbar-btn">
-                    <input class="form-control mr-sm-2" type="text" /> 
-                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-                </div>
-                <a href="#" class="login">Login</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produk & Layanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Berita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a href="#">Login</a>
+            </div>
             </div>
         </nav>
         
@@ -50,9 +72,9 @@
         <form class="conten">
             <fieldset>
                 <div class="shortcut">
-                    <p>Home</p>
-                    <P>/</P>
-                    <a href="#">Login</a>
+                    <a class="link" href="#">Home</a>
+                    <b class="symbol">></b>
+                    <a class="nav-link active" href="#">Booking</a>
                 </div>
                 <Legend>Booking Service</Legend>
                     <div class="form-group">
