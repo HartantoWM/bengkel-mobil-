@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;;
+    background-color: #fff;
 }
 
 /* Brand layout */
@@ -37,7 +37,9 @@ b.kilat{
 }
 
 /* Navbar Uhuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuy */
-
+nav {
+    margin-bottom: 1%;
+}
 /* top legend */
 b.symbol{
     margin: 0 3px 0 3px;
@@ -63,5 +65,9 @@ legend {
     justify-content: flex-end;
 }
 
-
+/* form btn */
+div.btn {
+    padding-left: 30%;
+    padding-right: 30%;
+}
 
