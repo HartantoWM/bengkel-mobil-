@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav.navbar-expand-lg{
+        background-color: rgba(255, 34, 34, 0.944);
+}
+
+div.collapse > ul >li > a{
+    color:orange;
+}
+div.collapse>ul>li>a:hover{
+    color: whitesmoke;
+}
+button.btn{
+    background-color: whitesmoke;
+    color: #666;
+    border: none;
+}
+button.btn:hover{
+    color: whitesmoke;
+    background-color: coral;
+    border: whitesmoke 1px solid;
+    transition:0.5s;
+}
