@@ -29,3 +29,8 @@ button.btn:hover{
     border: whitesmoke 1px solid;
     transition:0.5s;
 }
+
+.align-right{
+    display: flex;
+    justify-content: center;
+}
