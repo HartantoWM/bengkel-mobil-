@@ -54,7 +54,7 @@ div.jlogin>a {
     line-height: 2.7em;
 }
 div.jlogin{
-    /* background-image: url(../img/Top_wave.svg); */
+    background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
     background-color:#2387E8;
     border-radius: 8px;
@@ -88,6 +88,7 @@ div.button {
 div.button>button.btn-primary {
     height: 6.1vh;
     margin-top: 2vh;
+    background-color: rgb(69, 132, 240);
 }
 
 /* form email & password */
