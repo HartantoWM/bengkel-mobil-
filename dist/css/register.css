@@ -59,7 +59,9 @@ div.register-logo > span > img {
     width:10%;
 }
 
-
+div.col-12 > button{
+    background-color:rgb(69, 132, 240);
+}
 
 
 
