@@ -1,8 +1,8 @@
 body.register-page {
-    background-size: 100%;
+    background-color:#8ec0fc85;
+    background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-image: linear-gradient(to left bottom, #000000, #42101d, #810728, #c10027, #ff0010);
+    background-position:bottom;
 }
 
 div.register-logo>a {
@@ -39,10 +39,36 @@ label.form-check-label {
     font-weight: bold;
 }
 
+div.social-auth-links>span>a {
+    border-radius: 8px;
+    width: 45%;
+}
+span.animate__tada{
+    animation-delay: 1.4s;
+    animation-duration: 1.5s;
+}
+p.animate__rubberBand{
+    animation-delay: 3.5s;
+    animation-duration: 1.5s;
+}
+p.register,
+p.register>a {
+    font-size: 15px;
+}
+div.register-logo > span > img {
+    width:10%;
+}
+
+
+
+
+
+
 @media (max-width: 580px) {
     .register-box {
         width: 85%;
     }
+
     span.garis {
         font-size: 10px;
     }

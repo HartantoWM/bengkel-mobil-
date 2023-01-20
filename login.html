@@ -30,23 +30,27 @@
     <!-- Bootstarp 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- hover css -->
+    <link rel="stylesheet" href="dist/css/hover-min.css">
 </head>
 
 <body class="hold-transition login-page ">
     <div class="login-box">
         <div class="login-logo jlogin text-center animate__animated animate__bounceInDown">
             <!-- <span> -->
-            <a href="page1.html" class="text-decoration-none">Bengkel <span
+            <a href="page1.html" class="text-decoration-none hvr-grow">Bengkel <span
                     class="kilat">Kilat</span></a>
                     <!-- </span> -->
+                    <span class="hvr-grow">
             <img src="./dist/img/kacau.png" alt="kilat" class="tada">
+            </span>
         </div>
         <!-- /.login-logo -->
-        <div class="card rounded-3 border border-2 border-danger" >
+        <div class="card rounded-3 border border-3 " >
             <div class="card-body login-card-body rounded-3 ">
                 <form action="page2.html" method="post">
                     <div class="text-center">
-                        <h3 class="masuk animate__animated animate__rubberBand">Masuk</h3>
+                        <h3 class="masuk animate__animated animate__rubberBand hvr-grow">Masuk</h3>
                     </div>
                     <div class="input-group mb-3 email">
                         <input type="email" class="form-control" id="form2Example1" placeholder="Email">
@@ -69,7 +73,7 @@
                             <div class="form-check remember">
                                 <input class="form-check-input" type="checkbox" value="" id="form2Example31" />
                                 <label class="form-check-label" for="form2Example31"> Ingat Saya </label>
-                            </div>
+                            </div>`
                             <div class="lupapw">
                                 <p class="mb-1">
                                     <a href="#" class="text-decoration-none fw-bold">Lupa Password?</a>
@@ -80,8 +84,8 @@
                         <!-- /.col -->
                     </div>
                     <div class="row">
-                    <div class="col-12 button">
-                        <button type="submit" class="btn btn-danger col-12">Masuk</button>
+                    <div class="col-12 button text-center">
+                        <button type="submit" class="btn btn-primary col-11">Masuk</button>
                     </div>
                     </div>
                 </form>
@@ -89,17 +93,12 @@
                 <div class="social-auth-links text-center mb-3">
                     <p><span class="garis">――――――</span> atau masuk dengan <span class="garis"> ―――――― </span></p>
                     <span class="otherlogin">
-                        <a href="#" class="btn btn-primary">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a href="#!" class="btn btn-light">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="btn btn-danger">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="#" class="btn btn-dark">
-                            <i class="fab fa-github"></i>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>    
+                        <a href="#" class="btn btn-outline-dark">
+                            <img src="https://3.bp.blogspot.com/-_VNEWgnsfUo/WQo6z3smsJI/AAAAAAAAAa0/2UJZYSm5oYQakOuTpKuWI_Zxt0EIU1vqwCEw/s1600/ori%2Bgo.png"
+                                class="mr-1 lgoogle " width="15vw"></img>Google
                         </a>
                     </span>
                 </div>
