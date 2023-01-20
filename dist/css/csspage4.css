@@ -52,8 +52,8 @@ b.symbol{
 /* Form */
 
 .form-control {
-    padding: 2%;
-    margin: 2%;
+    padding: 1%;
+    margin: 0;
 }
 .form-radio {
     padding: 2%;
@@ -85,15 +85,36 @@ legend {
     justify-content: center;
 }
 
-.shortcut {
+/* Breadcrumb */
+.align-right{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
+    align-items: center;
+}
+
+.breadcrumb, .align-right input{
+    width: fit-content;
+    display: flex;
+    justify-content: end;
+}
+
+.breadcrumb {
+    display: flex;
+    justify-content: end;
+}
+
+div[data-widget=search]{
+    width: 140px;
 }
 
 /* form btn */
 div.btn {
     padding-left: 30%;
     padding-right: 30%;
+}
+
+.pad-bot{
+    margin-top: 3%;
 }
 
 /* footer Style */

@@ -3,6 +3,19 @@ body{
     padding: 0;
 }
 
+.brand{
+    display: flex;
+    justify-content: start;
+}
+
+.bengkel{
+    padding-top: 2rem;
+}
+
+b.kilat{
+    color: yellow;
+}
+
 .align-right{
     display: flex;
     justify-content: end;
