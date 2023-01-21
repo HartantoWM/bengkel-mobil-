@@ -2,7 +2,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #8ec0fc85;
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 /* Brand layout */
@@ -51,6 +54,7 @@ a.mar-nav {
 
 /* Form */
 
+
 legend.title {
     font-family: 'Unbounded', cursive;
 }
@@ -63,6 +67,7 @@ fieldset {
 div.div-pad {
     padding: 5% 20% 10% 20%;
     border-radius: 3%;
+    box-shadow: 1px 1px 10px white;
 }
 
 div .form-group{
@@ -89,12 +94,6 @@ div.form-group > label {
     font-weight: bold;
     width: 100%;
     margin-bottom: 10px;
-}
-
-form.conten{
-    padding: auto;
-    margin: auto;
-    border: solid black 1px;
 }
 
 fieldset {
@@ -137,13 +136,22 @@ div.btn {
 }
 
 .pad-bot{
+    width: 100%;
     margin-top: 3%;
+    box-sizing: 100%;
 }
 
+.pad-btn{
+    margin-right: 5%;
+}
 /* footer Style */
 .footer {
     margin: 20px;
     border-top: 1px solid #000;
+}
+
+.btn-border {
+    box-shadow: 1px 1px 10px white;
 }
 
 /* responsive media */
