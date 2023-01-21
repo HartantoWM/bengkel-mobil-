@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,32 +12,49 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
-        <!-- Masayid Style Css -->
+    <!-- Masayid Style Css -->
     <link rel="stylesheet" href="dist/css/csspage4.css">
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Hoover -->
+    <link rel="stylesheet" href="dist/css/hover-min.css">
 </head>
+
 <body>
     <!-- Wadah pertama A.K.A Container -->
     <div class="container-fluid">
         <!-- Pembuka Wadah Kedua / Navbar -->
-        <div class="brand bg-primary">
-            <!-- Nama Bengkel + Logo -->
-            <h3 class="bengkel">Bengkel <b class="kilat">Kilat</b></h3>
-            <img class="kacau" style="width: 3rem;" src="dist/img/kacau.png" alt="">
+        <div class="brand bg-lightblue">
+            <div class="brand animate__animated animate__zoomIn">
+                <a href="page1.html" class="">
+                <!-- Nama Bengkel + Logo -->
+                <h3 class="bengkel">Bengkel <b class="kilat">Kilat</b></h3>
+                </a>
+                <img class="kacau animate_animated animate__tada" style="width: 3rem;" src="dist/img/kacau.png"
+                    alt="logo">
+            </div>
         </div>
         <!-- NAVBAR Uhuuuuuuuuuuuuuuuuuuuuuuy -->
-        <nav class="navbar navbar-expand-lg bg  navbar bg-primary" data-bs-theme="dark"">
+        <nav class="navbar navbar-expand-lg bg  navbar bg-lightblue" data-bs-theme="dark"">
             <div class=" container-fluid ">
                 <a class=" navbar-brand" href="#">
             <!-- Bengkel Kilat -->
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon fas fa-bars"></span>
+            </button>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -55,9 +73,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tentang Kami</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,97 +81,93 @@
                             <i class="fas fa-search fa-fw"></i>
                         </button>
                     </div>
-                    <a class="btn btn-primary" href="login.html" style="background-color: rgb(1, 61, 183);">Login</a>
+                    <a class="btn btn-primary mar-nav" href="login.html"
+                        style="background-color: rgb(1, 61, 183);">Login</a>
                 </form>
             </div>
     </div>
     </nav>
-        
-        <!-- div pembuka ke -2 -->
-        <form class="conten">
-            <fieldset>
-                <div class="align-right">
-                    <a class="breadcrumb-item" href="page1.html">Home</a>
-                    <b class="symbol">></b>
-                    <a class="nav-link active" href="page4.html">Booking</a>
+
+    <!-- div pembuka ke -2 -->
+    <form class="conten">
+        <div class="align-right">
+            <a class="breadcrumb-item" href="page1.html">Home</a>
+            <b class="symbol">></b>
+            <a class="nav-link active" href="page4.html">Booking</a>
+        </div>
+        <fieldset>
+            <Legend class="title">Booking Service</Legend>
+            <div class="form-group bg-lightblue div-pad">
+                <label for="JenisKendaraan">Jenis Kendaraan</label>
+                <select class="form-control" name="JenisKendaraan" id="JenisKendaraan">
+                    <option value="minibus">Minibus</option>
+                    <option value="bus">Bus</option>
+                    <option value="truck">Truck</option>
+                    <option value="tronton">Tronton</option>
+                    <option value="mobil">Mobil</option>
+                </select>
+                <!-- Form Group pengisian  -->
+                <!-- nama Pemesanan -->
+                <label for="nama">
+                    Nama Pemesan
+                </label>
+                <input required type="name" class="form-control" placeholder="Hartanto-kun">
+                <!-- Kategori Peminjam -->
+                <label> Kategori Peminjam </label>
+                <br>
+                <div class="container-kategori">
+                    <input type="radio" class="form-radio" name="category" id="Pribadi" required> <label
+                        for="Pribadi">Pribadi</label>
+                    <input type="radio" class="form-radio" name="category" id="Perusahaan/Organisasi"> <label
+                        for="Perusahaan/Organisasi">Perusahaan/Organisasi</label>
                 </div>
-                <Legend>Booking Service</Legend>
-                    <div class="form-group">
-                            <label  for="JenisKendaraan">Jenis Kendaraan</label>
-                            <select class="form-control" name="JenisKendaraan" id="JenisKendaraan">
-                                <option value="minibus">Minibus</option>
-                                <option value="bus">Bus</option>
-                                <option value="truck">Truck</option>
-                                <option value="tronton">Tronton</option>
-                                <option value="mobil">Mobil</option>
-                            </select>
-                        <!-- Form Group pengisian  -->
-                    </div>
-                    <div class="form-group">
-                        <label for="nama">
-                            Nama Pemesan
-                        </label>
-                        <input required type="name" class="form-control">
-                    </div>
-                    <div class="form-group">
-                            <label> Kategori Peminjam </label>
-                        <br>
-                        <input type="radio" class="form-radio" name="category" id="Pribadi" required> <label for="Pribadi">Pribadi</label>
-                        <input type="radio" class="form-radio" name="category" id="Perusahaan/Organisasi"> <label for="Perusahaan/Organisasi">Perusahaan/Organisasi</label>
-                    </div>
-                    <div class="form-group">
-                        
-                        <label for="keterangan">
-                            Deskripsi Kebutuhan (opsional)
-                        </label>
-                        <textarea class="form-control" name="keterangan" id="keterangan"></textarea>
-                    </div>
-                    <div class="form-group">
-                        
-                        <label for="date">
-                            Jam, Tanggal Service : 
-                        </label>
-                        <input required type="date" class="form-control" id="date" />
-                    </div>
-                    <div class="form-group">
-                        
-                        <label for="montir">
-                            Request Montir
-                        </label>
-                        <select required type="email" class="form-control" id="montir">
-                            <option value="newbie-mekanik">Newbie Mekanik</option>
-                            <option value="beginner-mekanik">Beginner Mekanik</option>
-                            <option value="senior-mekanik">Senior Mekanik</option>
-                            <option value="master-mekanik">Master Mekanik</option>
-                            <option value="legendary-mekanik">Legendary Mekanik</option>
-                        </select>>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">
-                            Telephone/HP
-                        </label>
-                        <input required type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" class="form-control" id="phone"/>
-                        <small>08XX-88XX-XX99</small>
-                    </div>
-                    <div class="form-group">
-                        
-                        <label for="email">
-                            Email 
-                        </label>
-                        <input required type="email" class="form-control" id="email"/>                        
-                    </div>
-                    <div class="btn pad-bot">
-                        <button type="submit" class="btn btn-outline-primary pad-btn">
-                            Simpan
-                        </button>
-                        <button type="reset" class="btn btn-outline-danger">
-                            Reset
-                        </button>
-                    </div>
-            </fieldset>
-        </form>
+                <!-- Deskripsi Kebutuhan -->
+                <label for="keterangan">
+                    Deskripsi Kebutuhan (opsional)
+                </label>
+                <textarea class="form-control" name="keterangan" id="keterangan"
+                    placeholder="kendaraan saya sudah lama tidak mengganti oli."></textarea>
+                <!-- jam tanggal service -->
+                <label for="date">
+                    Jam, Tanggal Service :
+                </label>
+                <input required type="date" class="form-control" id="date" />
+                <!-- Request Montir -->
+                <label for="montir">
+                    Request Montir
+                </label>
+                <select required type="email" class="form-control" id="montir">
+                    <option value="newbie-mekanik">Newbie Mekanik</option>
+                    <option value="beginner-mekanik">Beginner Mekanik</option>
+                    <option value="senior-mekanik">Senior Mekanik</option>
+                    <option value="master-mekanik">Master Mekanik</option>
+                    <option value="legendary-mekanik">Legendary Mekanik</option>
+                </select>
+                <!-- Nomor Telephone -->
+                <label for="phone">
+                    Telephone/HP
+                </label>
+                <input required type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" class="form-control" id="phone"
+                    placeholder="08XX-88XX-XX99" />
+                <small>08XX-88XX-XX99</small>
+                <br>
+                <label for="email">
+                    Email
+                </label>
+                <input required type="email" class="form-control" id="email" placeholder="dimashandria@gmail.com" />
+            </div>
+            <div class="btn pad-bot">
+                <button type="submit" class="btn btn-primary pad-btn btn-border">
+                    submit
+                </button>
+                <button type="reset" class="btn btn-danger btn-border">
+                    Reset
+                </button>
+            </div>
+        </fieldset>
+    </form>
     </div>
-    <div class="blockquote footer bg-primary">
+    <div class="blockquote footer text-sm text-light">
         <footer class="">
             <b>Developed by Mahasiswa STT-NF &copy; 2022</b>
         </footer>
@@ -165,4 +176,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+
 </html>

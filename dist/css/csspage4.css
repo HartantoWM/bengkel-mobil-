@@ -2,7 +2,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #8ec0fc85;
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 /* Brand layout */
@@ -23,17 +26,13 @@ img{
 }
 
 /* position */
-div .form-group{
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-h3 {
-    color: red;
-}
-
 b.kilat{
     color: yellow;
+}
+
+.animate__tada{
+    animation-duration: 3s;
+    animation-delay: 1,5s;
 }
 
 /* Navbar Uhuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuy */
@@ -49,7 +48,34 @@ b.symbol{
     margin: 0 3px 0 3px;
 }
 
+a.mar-nav {
+    margin-left: 3%;
+}
+
 /* Form */
+
+
+legend.title {
+    font-family: 'Unbounded', cursive;
+}
+
+fieldset {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+div.div-pad {
+    padding: 5% 20% 10% 20%;
+    border-radius: 3%;
+    box-shadow: 1px 1px 10px white;
+}
+
+div .form-group{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 .form-control {
     padding: 1%;
@@ -66,12 +92,8 @@ b.symbol{
 
 div.form-group > label {
     font-weight: bold;
-}
-
-form.conten{
-    padding: auto;
-    margin: auto;
-    border: solid black 1px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 fieldset {
@@ -114,11 +136,32 @@ div.btn {
 }
 
 .pad-bot{
+    width: 100%;
     margin-top: 3%;
+    box-sizing: 100%;
 }
 
+.pad-btn{
+    margin-right: 5%;
+}
 /* footer Style */
 .footer {
     margin: 20px;
     border-top: 1px solid #000;
 }
+
+.btn-border {
+    box-shadow: 1px 1px 10px white;
+}
+
+/* responsive media */
+@media (max-width:680px) {
+    fieldset {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+}
+
