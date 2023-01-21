@@ -36,8 +36,10 @@
             &nbsp;<span class="fas fa-bolt fa-xl text-warning animate__animated animate__tada hvr-grow"></span>
         </div>
         <div class="card rounded-3 border border-3">
-            <div class="card-body rounded-3 register-card-body">
-                <p class="login-box-msg fs-3 title animate__animated animate__rubberBand">Daftar</p>
+            <div class="card-body rounded-3 register-card-body hvr-underline-from-center">
+                <div class="col-12 text-center ">
+                <p class="login-box-msg fs-3 title animate__animated animate__rubberBand ">Daftar</p>
+            </div>
                 <form action="login.html" method="post">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Nama Lengkap" />
@@ -108,77 +110,13 @@
                 </p>
             </div>
         </div>
+    </div>  
+    <div class="text-sm text-light mt-2 left">
+        <footer class=" footer">
+            <b class="text-left hvr-bob">Developed by Mahasiswa STT-NF &copy; 2022</b>
+        </footer>
     </div>
-
     <script>
-        // (function (w, d) {
-        //     !(function (eK, eL, eM, eN) {
-        //         eK.zarazData = eK.zarazData || {};
-        //         eK.zarazData.executed = [];
-        //         eK.zaraz = { deferred: [], listeners: [] };
-        //         eK.zaraz.q = [];
-        //         eK.zaraz._f = function (eO) {
-        //             return function () {
-        //                 var eP = Array.prototype.slice.call(arguments);
-        //                 eK.zaraz.q.push({ m: eO, a: eP });
-        //             };
-        //         };
-        //         for (const eQ of ["track", "set", "debug"])
-        //             eK.zaraz[eQ] = eK.zaraz._f(eQ);
-        //         eK.zaraz.init = () => {
-        //             var eR = eL.getElementsByTagName(eN)[0],
-        //                 eS = eL.createElement(eN),
-        //                 eT = eL.getElementsByTagName("title")[0];
-        //             eT && (eK.zarazData.t = eL.getElementsByTagName("title")[0].text);
-        //             eK.zarazData.x = Math.random();
-        //             eK.zarazData.w = eK.screen.width;
-        //             eK.zarazData.h = eK.screen.height;
-        //             eK.zarazData.j = eK.innerHeight;
-        //             eK.zarazData.e = eK.innerWidth;
-        //             eK.zarazData.l = eK.location.href;
-        //             eK.zarazData.r = eL.referrer;
-        //             eK.zarazData.k = eK.screen.colorDepth;
-        //             eK.zarazData.n = eL.characterSet;
-        //             eK.zarazData.o = new Date().getTimezoneOffset();
-        //             if (eK.dataLayer)
-        //                 for (const eX of Object.entries(
-        //                     Object.entries(dataLayer).reduce((eY, eZ) => ({
-        //                         ...eY[1],
-        //                         ...eZ[1],
-        //                     }))
-        //                 ))
-        //                     zaraz.set(eX[0], eX[1], { scope: "page" });
-        //             eK.zarazData.q = [];
-        //             for (; eK.zaraz.q.length;) {
-        //                 const e_ = eK.zaraz.q.shift();
-        //                 eK.zarazData.q.push(e_);
-        //             }
-        //             eS.defer = !0;
-        //             for (const fa of [localStorage, sessionStorage])
-        //                 Object.keys(fa || {})
-        //                     .filter((fc) => fc.startsWith("_zaraz_"))
-        //                     .forEach((fb) => {
-        //                         try {
-        //                             eK.zarazData["z_" + fb.slice(7)] = JSON.parse(
-        //                                 fa.getItem(fb)
-        //                             );
-        //                         } catch {
-        //                             eK.zarazData["z_" + fb.slice(7)] = fa.getItem(fb);
-        //                         }
-        //                     });
-        //             eS.referrerPolicy = "origin";
-        //             eS.src =
-        //                 "/cdn-cgi/zaraz/s.js?z=" +
-        //                 btoa(encodeURIComponent(JSON.stringify(eK.zarazData)));
-        //             eR.parentNode.insertBefore(eS, eR);
-        //         };
-        //         ["complete", "interactive"].includes(eL.readyState)
-        //             ? zaraz.init()
-        //             : eK.addEventListener("DOMContentLoaded", zaraz.init);
-        //     })(w, d, 0, "script");
-        // })(window, document);
-
-
         function hide() {
             let x = document.getElementById("dihide");
             let y = document.getElementById("ganti");

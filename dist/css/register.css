@@ -14,14 +14,16 @@ div.register-logo {
     background-repeat: no-repeat;
     background-color: #2387E8;
     border-radius: 8px;
-    line-height: 4.2rem; 
+    line-height: 4.2rem;
     background-image: url(../img/wave.svg);
 }
 
 .register-box {
     width: 30%;
 }
-b.text-warning,div.register-logo > span{
+
+b.text-warning,
+div.register-logo>span {
     color: #FCD015;
 }
 
@@ -78,10 +80,17 @@ div.col-12>button {
     background-color: rgb(69, 132, 240);
 }
 
+/* footer style */
+div.left>footer>b {
+    text-align: start;
+    position: fixed;
+    left: 1em;
+    bottom: 5px;
+}
 
 
 
-@media (max-width: 580px) {
+@media (max-width: 590px) {
     .register-box {
         width: 85%;
     }
@@ -92,6 +101,18 @@ div.col-12>button {
 }
 
 @media (min-width: 600px) {
+    .register-box {
+        width: 70%;
+    }
+}
+
+@media (min-width: 800px) {
+    .register-box {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1000px) {
     .register-box {
         width: 32%;
     }

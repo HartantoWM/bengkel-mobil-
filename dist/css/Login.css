@@ -126,6 +126,14 @@ span.otherlogin>a.btn-white {
     margin-bottom: 2.5px;
 }
 
+/* footer style */
+div.left>footer>b {
+    text-align: start;
+    position: fixed;
+    left: 1em;
+    bottom: 5px;
+}
+
 
 /* animaton page */
 .tada {
