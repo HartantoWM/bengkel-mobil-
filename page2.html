@@ -7,6 +7,11 @@
     <link rel="shortcut icon" href="dist/img/logo-removebg-preview.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/csspage1.css">
+    <!-- hover css -->
+    <link rel="stylesheet" href="dist/css/hover-min.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
 
 </head>
 
@@ -15,42 +20,41 @@
     <div class="p-0 mb-0     text-dark" style="background-color: #f2f3f4    ;">
         <!-- Background Color -->
         <div>
-            <nav class="navbar fixed-to navbar-expand-lg bg" data-bs-theme="dark" style="background-color: #03045e;">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2e83f1;">
                 <div class=" container-fluid ">
-                    <a class=" navbar-brand" href="#">
-                        <img src="dist/img/logo-removebg-preview.jpg" width="50" height="50" alt="Malas Ngoding">
+                    <a class="navbar-brand d-flex hvr-grow" href="#">
+                        <img src="dist/img/logo_jay.png" width="50" height="50" alt="Malas Ngoding"
+                            class="rounded rounded-2 ">
+                        <p class="logo1">Bengkel <span class="fw-medium text-warning"> Kilat</span></p>
                         <!-- Bengkel Kilat -->
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler border-light-subtle text-light" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                            <li class="nav-item fw-medium">
                                 <a class="nav-link active" aria-current="page1.html" href="page1.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="page2.html">Produk & Layanan</a>
+                                <a class="nav-link fw-medium" href="page2.html">Produk & Layanan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="page4.html">Booking</a>
+                                <a class="nav-link fw-medium" href="page4.html">Booking</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="berita.html">Berita</a>
+                                <a class="nav-link fw-medium" href="berita.html">Berita</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="lihat_gambar_lainnya.html">testimoni</a>
+                                <a class="nav-link fw-medium" href="tentangkami.html">Tentang Kami</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <a href="login.html" class="btn btn-light"
-                                style="background-color: rgb(255, 255, 255);"><b>Login</b><a href="login.html"></a>
+                            <a href="login.html" class="btn btn-primary fw-semibold border border-1 ">Login<a
+                                    href="login.html"></a>
                         </form>
                     </div>
                 </div>
@@ -167,12 +171,21 @@
                     <br>
                     <br>
 
-                    <ul class="list-group text-center">
-                        <li class="list-group-item active   " aria-current="true">Kategori Service</li>
-                        <li class="list-group-item"><a href="page3.html">Service Besar</a></li>
-                        <li class="list-group-item"><a href="Service_ringan.html">Service Ringan</a></li>
-                        <li class="list-group-item"><a href="Body_repair.html">Body Repair</a></li>
-                    </ul>
+                    <div class="col-md-3">
+                        <div class="card text-bg-primary text-light mb-3" style="width: 18rem;">
+                            <div class="card-header">
+                                <b>Kategori Service</b>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="page3.html">Service
+                                        Besar <span class="fas fa-wrench"></span></a></li>
+                                <li class="list-group-item"><a href="Service_ringan.html">
+                                        Service Ringan <span class="fas fa-screwdriver"></span></a></li>
+                                <li class="list-group-item"><a href="Body_repair.html">
+                                        Body Repair <span class="fas fa-hammer"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <ul></ul>
