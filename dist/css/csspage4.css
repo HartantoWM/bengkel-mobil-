@@ -6,7 +6,6 @@ body {
 }
 
 svg {
-    
     position: absolute;
     top: 420px;
     left: 0;
@@ -14,6 +13,7 @@ svg {
     height: 100%;
     box-sizing: border-box;
     display: block;
+    z-index: -1;
 }
 
 /* Brand layout */
