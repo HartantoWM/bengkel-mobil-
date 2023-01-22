@@ -12,12 +12,17 @@ div.cont {
 
 .posisi{
     color: aliceblue;
+    padding-left: 20%;
 }
 /*
 .navbar{
     background-color: #03045e;
     color: aliceblue;
 }*/
+
+.nav-item {
+    color: aliceblue;
+}
 
 /* bread cru,b */
 .align-right {
