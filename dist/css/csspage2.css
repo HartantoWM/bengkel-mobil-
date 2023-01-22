@@ -1,0 +1,62 @@
+/* button login*/
+form>a.btn {
+    width: 36%;
+    padding-bottom: 8px;
+}
+
+div.navbar-collapse>ul>li {
+    border-color: #2e83f1;
+    margin-left: 1.5rem;
+}
+
+div.navbar-collapse>ul {
+    margin-left: 9rem;
+}
+
+div.navbar-collapse>ul>li:hover {
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+    transition: 0.7s;
+    padding-bottom: 0;
+}
+
+div.container-fluid>a>img {
+    margin-right: -10px;
+    margin-left: 10pt;
+    /* border: black 1px solid; */
+}
+
+div.container-fluid>a>p {
+    position: absolute;
+    left: 3.4em;
+    top: 0.8em;
+}
+
+* a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #d5dbe1;
+}
+ol.breadcrumb {
+    margin-left:44em ;
+}
+
+    div.card > img{
+    border-radius: 20px;
+
+}
+h3.subjudul{
+    color: #0E6CF6;
+    box-shadow: 0px 1px 3px #FCD015;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20vw;
+    margin-bottom: 20px;
+}
+
+li.list-group-item > a.aman:hover{
+    color: dodgerblue;
+}
