@@ -36,9 +36,9 @@
         <!-- Pembuka Wadah Kedua / Navbar -->
         <div class="brand bg-lightblue">
             <div class="brand animate__animated animate__zoomIn">
-                <a href="page1.html" class="">
-                <!-- Nama Bengkel + Logo -->
-                <h3 class="bengkel">Bengkel <b class="kilat">Kilat</b></h3>
+                <a href="page1.html" class="hvr-grow">
+                    <!-- Nama Bengkel + Logo -->
+                    <h3 class="bengkel">Bengkel <b class="kilat">Kilat</b></h3>
                 </a>
                 <img class="kacau animate_animated animate__tada" style="width: 3rem;" src="dist/img/kacau.png"
                     alt="logo">
@@ -68,10 +68,13 @@
                         <a class="nav-link" href="page4.html">Booking</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Berita</a>
+                        <a class="nav-link" href="berita.html">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Kami</a>
+                        <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lihat_gambar_lainnya.html">Testimoni</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -96,7 +99,7 @@
             <a class="nav-link active" href="page4.html">Booking</a>
         </div>
         <fieldset>
-            <Legend class="title">Booking Service</Legend>
+            <Legend class="title animate_animated animate__heartBeat">Booking Service</Legend>
             <div class="form-group bg-lightblue div-pad">
                 <label for="JenisKendaraan">Jenis Kendaraan</label>
                 <select class="form-control" name="JenisKendaraan" id="JenisKendaraan">
@@ -155,14 +158,14 @@
                     Email
                 </label>
                 <input required type="email" class="form-control" id="email" placeholder="dimashandria@gmail.com" />
-            </div>
-            <div class="btn pad-bot">
-                <button type="submit" class="btn btn-primary pad-btn btn-border">
-                    submit
-                </button>
-                <button type="reset" class="btn btn-danger btn-border">
-                    Reset
-                </button>
+                <div class="btn pad-bot">
+                    <button type="submit" class="btn btn-primary pad-btn btn-border">
+                        submit
+                    </button>
+                    <button type="reset" class="btn btn-danger btn-border">
+                        Reset
+                    </button>
+                </div>
             </div>
         </fieldset>
     </form>
@@ -171,6 +174,38 @@
         <footer class="">
             <b>Developed by Mahasiswa STT-NF &copy; 2022</b>
         </footer>
+    </div>
+    <div class="animasi">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+            <defs>
+                <linearGradient id="bg">
+                    <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+                    <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+                    <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+                </linearGradient>
+                <path id="wave" fill="url(#bg)"
+                    d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+                    s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+            </defs>
+            <g>
+                <use xlink:href='#wave' opacity=".3">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="10s"
+                        calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+                </use>
+                <use xlink:href='#wave' opacity=".6">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s"
+                        calcMode="spline" values="-270 230;243 220;-270 230" keyTimes="0; .6; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+                </use>
+                <use xlink:href='#wave' opacty=".9">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s"
+                        calcMode="spline" values="0 230;-140 200;0 230" keyTimes="0; .4; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+                </use>
+            </g>
+        </svg>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
