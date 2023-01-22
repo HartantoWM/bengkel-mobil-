@@ -1,36 +1,69 @@
+/* button login*/
+form > a.btn{
+    width: 36%;
+    padding-bottom: 8px;
+}
+
+div.navbar-collapse>ul>li{
+    border-color:#2e83f1 ;
+    margin-left: 1.5rem;
+}
+div.navbar-collapse>ul{
+    margin-left: 9.5rem;
+}
+div.navbar-collapse > ul > li:hover{
+    color: whitesmoke;
+    border-bottom:1px solid white ;
+    transition: 0.7s;
+    padding-bottom: 0;
+}
+div.container-fluid > a > img{
+    margin-right: -10px;
+    margin-left: 10pt;
+    /* border: black 1px solid; */
+}
+div.container-fluid > a > p{
+    position:absolute;
+    left: 3.4em;
+    top: 0.8em;
+}
+* a{
+    text-decoration: none;
+}
 body{
-    padding: 0;
-    margin: 0;
+    background-color: #d5dbe185;
 }
-*{
-    padding: 0;
-    margin: 0;
+/* * div.row{
+    border:solid black 1px;
+} */
+
+/* Kategori service */
+div.card > ul > li.list-group-item > a{
+    color: #666666;
+    background-color: #fff;
+}
+div.card>ul>li.list-group-item>a:hover{
+    color:dodgerblue;
+    transition: 0.5s;
+}
+p.contenatas{
+    font-size: 15px;
+}
+img.atasimg{
+    margin-left: 8px;
+    margin-top: 60px;
 }
 
-
-nav.navbar-expand-lg{
-        background-color: rgba(255, 34, 34, 0.944);
+/* text introduction */
+p.text-intro{
+    text-align: justify;
+    text-transform:lowercase;
 }
-
-div.collapse > ul >li > a{
-    color:orange;
-}
-div.collapse>ul>li>a:hover{
-    color: whitesmoke;
-}
-button.btn{
-    background-color: whitesmoke;
-    color: #666;
-    border: none;
-}
-button.btn:hover{
-    color: whitesmoke;
-    background-color: coral;
-    border: whitesmoke 1px solid;
-    transition:0.5s;
-}
-
-.align-right{
-    display: flex;
-    justify-content: center;
+h4.subjudul{
+    color: #0E6CF6;
+    box-shadow: 0px 1px 3px #FCD015;
+    background-color:white ;
+    border-radius: 20px;
+    padding: 10px;
+    /* border: #2e83f1 solid; */
 }
