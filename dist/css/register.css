@@ -94,6 +94,11 @@ div.left>footer>b {
     .register-box {
         width: 85%;
     }
+    div.left>footer>b {
+        position: fixed;
+        left: 5rem;
+        bottom: 5px;
+    }
 
     span.garis {
         font-size: 10px;
