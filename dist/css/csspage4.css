@@ -7,7 +7,7 @@ body {
 
 svg {
     position: absolute;
-    top: 420px;
+    top: 450px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -17,6 +17,7 @@ svg {
 
 .container-fluid {
     padding: 0;
+    margin: 0;
 }
 
 /* Brand layout */
@@ -155,7 +156,9 @@ div.btn {
 .pad-bot{
     display: flex;
     justify-content:space-between;
+    top: 450px;
     width: 100%;
+    height: 100%;
     margin-top: 3%;
     box-sizing: 100%;
 }
@@ -167,6 +170,7 @@ div.btn {
 .footer {
     margin: 20px;
     border-top: 1px solid #000;
+    padding: auto;
 }
 
 .btn-border {
@@ -178,13 +182,22 @@ div.navbar-collapse > ul > li:hover{
     color: yellow;
     transition: 0.7s;
     padding-bottom: 0;
+    margin: 0;
+    gap: 0;
 }
 
 * a{
     text-decoration: none;
 }
 
-.dropdown-menu.acive{display: block;}
+.text > p > a:hover {
+    color: white;
+    transition: o,7s;
+}
+
+.dropdown-menu.acive{
+    display: block;
+}
 
 /* responsive media */
 @media (max-width:680px) {
